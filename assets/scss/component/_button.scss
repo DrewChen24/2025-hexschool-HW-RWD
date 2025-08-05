@@ -1,0 +1,47 @@
+.btn{
+    border-radius: 4px;
+    padding: 12px 24px;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 5%;
+    cursor: pointer;
+    background-color: transparent;
+    border:none;
+}
+
+.btn-icon{
+    padding: 12px;
+    cursor: pointer;
+    background-color: $neutral-0;
+}
+
+@media screen and (max-width:767px) {
+    .btn{
+        padding: 8px 16px;
+    }
+
+    .btn-md{
+        padding: 12px 24px;
+    }
+
+    .btn-icon{
+        border: none;
+    }
+}
+
+.btn-dark{
+    background-color: $neutral-900;
+    color: $neutral-0 ;
+}
+
+.btn-light{
+    background-color: $neutral-0;
+    color: $neutral-900 ;
+    border: 1px solid $neutral-900;
+}
+
+.btn-primary{
+    background-color: $primary-300;
+}
